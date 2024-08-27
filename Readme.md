@@ -1,7 +1,7 @@
 # Проект «Большое путешествие»
 
 - Студент: [Рамиль Зарипов](https://up.htmlacademy.ru/ecmascript/24/user/241042).
-- Наставник: [Юлия Волкова](https://htmlacademy.ru/profile/julie_volkova).
+- Наставник: [Yulia Volkova](https://htmlacademy.ru/profile/julie_volkova).
 
 ---
 
