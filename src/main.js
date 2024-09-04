@@ -1,6 +1,6 @@
 import TripInfo from './view/trip-info-view';
 import FilterView from './view/filter-view';
-import SortView from './view/sort-view';
+
 import EventsListPresenter from './presenter/events-list-presenter';
 import { render, RenderPosition } from './render';
 
@@ -13,5 +13,4 @@ const eventsListPresenter = new EventsListPresenter({eventsListContainer: tripEv
 
 render(new TripInfo(), tripTripMainElement, RenderPosition.AFTERBEGIN);
 render(new FilterView(), tripFiltersElement);
-render(new SortView(), tripEventsElement);
 eventsListPresenter.init();
