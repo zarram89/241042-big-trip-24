@@ -8,8 +8,8 @@ import { render } from '../render';
 export default class EventsListPresenter {
   eventsListComponent = new EventsListView();
 
-  constructor({eventsListContainer}) {
-    this.eventsListContainer = eventsListContainer;
+  constructor({container}) {
+    this.eventsListContainer = container;
   }
 
   init() {
