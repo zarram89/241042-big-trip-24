@@ -1,5 +1,5 @@
-function capitalizeFirstLetter(string) {
-  return string[0].toUpperCase() + string.slice(1);
+function capitalizeFirstLetter(value) {
+  return value[0].toUpperCase() + value.slice(1);
 }
 
 export {capitalizeFirstLetter};
