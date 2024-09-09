@@ -15,9 +15,12 @@ export default class EventsListPresenter {
 
   init() {
     this.eventsListPoints = [...this.pointsModel.getPoints()];
+
     render(this.eventsListComponent, this.eventsListContainer);
     render(new SortView(), this.eventsListComponent.getElement());
-    render(new EditPointView({point: this.eventsListPoints[0]}), this.eventsListComponent.getElement());
+    render(new EditPointView({
+      point: this.eventsListPoints[0]
+    }), this.eventsListComponent.getElement());
     // render(new NewPointView(), this.eventsListComponent.getElement());
 
     for (let i = 1; i < this.eventsListPoints.length; i++) {

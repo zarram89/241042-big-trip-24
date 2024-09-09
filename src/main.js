@@ -2,7 +2,7 @@ import TripInfo from './view/trip-info-view';
 import FilterView from './view/filter-view';
 import EventsListPresenter from './presenter/events-list-presenter';
 import { render, RenderPosition } from './render';
-import PointsModel from './model/points';
+import PointsModel from './model/points-model';
 
 const tripHeaderElement = document.querySelector('.page-header');
 const tripTripMainElement = tripHeaderElement.querySelector('.trip-main');
